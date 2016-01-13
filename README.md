@@ -1,2 +1,16 @@
 # gitbook-plugin-thumbnail
-Thumbnail metadata for gitbook plugins
+
+This Gitbook plugin lets you set thumbnail metadata for your gitbooks. Thumbnails will show up in Google custom search results.
+
+## Usage
+
+In `book.json`:
+
+```
+"plugins": ["thumbnail"],
+"pluginsConfig": {
+    "thumbnail": "https://example.com/cover-image.png"
+}
+```
+
+Then run `gitbook install`.
