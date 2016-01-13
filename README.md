@@ -9,7 +9,9 @@ In `book.json`:
 ```
 "plugins": ["thumbnail"],
 "pluginsConfig": {
-    "thumbnail": "https://example.com/cover-image.png"
+    "thumbnail": {
+        "path": "https://example.com/cover-image.png"
+    }
 }
 ```
 
